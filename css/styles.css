@@ -1,0 +1,102 @@
+/* ============================
+   BASIC ARG SITE STYLE
+   ============================ */
+
+/* Global styles */
+body {
+  background-color: #0a0a0a;   /* deep black background */
+  color: #e0e0e0;              /* soft off-white text */
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  height: 100vh;
+
+  /* Center all content in the middle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin: 0.5em 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Paragraph text */
+p {
+  max-width: 600px;
+  line-height: 1.5;
+  color: #cfcfcf;
+}
+
+/* Buttons and links */
+button, .btn, a {
+  background-color: #1f1f1f;
+  color: #eee;
+  border: 1px solid #444;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover, a:hover {
+  background-color: #333;
+  border-color: #666;
+  transform: scale(1.05);
+}
+
+/* Images */
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: rotate(2deg) scale(1.02);
+}
+
+/* Inputs (for password puzzles, etc.) */
+input[type="text"], input[type="password"] {
+  background-color: #111;
+  color: #eee;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Subtle fade-in animation for page transitions */
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Make text/images scale down nicely on phones */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
