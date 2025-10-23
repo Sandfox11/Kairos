@@ -22,7 +22,7 @@ body {
 /* Headings */
 h1, h2, h3 {
   margin: 0.5em 0;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
