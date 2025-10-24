@@ -32,16 +32,10 @@
    height:100%;
    padding: 30px;
  }
-  .poem{
+  .about{
     display:block;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-  .wait{
-  display:block;
-  margin-top: 20px;
-  color: #800
 }
 /* Buttons and links */
  .visible {
