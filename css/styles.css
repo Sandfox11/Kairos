@@ -22,18 +22,19 @@
   margin: 0.5em 0;
   letter-spacing: 1px;
   text-transform: uppercase;
+  justify-content: center;
 }
   main{
    display: flex;
-   justify-content: center; /* horizontal centering */
-   align-items: center;     /* vertical centering */
-   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    margin-top: -100px;
    height:100%;
    padding: 30px;
    color: #e0e0e0 ! important;
  }
-  .about{
+  .paragraph{
     display:block;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -64,6 +65,11 @@ img {
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease;
+}
+
+h2 img {
+  vertical-align: middle;   /* centers it vertically with the text */
+  margin-left: 10px;        /* small space between text and image */
 }
 
 /* Inputs (for password puzzles, etc.) */
