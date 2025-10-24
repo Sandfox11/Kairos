@@ -41,12 +41,12 @@
   .wait{
   display:block;
   margin-top: 20px;
-  color: #E00
+  color: #800
 }
 /* Buttons and links */
 button, .btn, a {
   background-color: #1f1f1f;
-  color: #E00;
+  color: #800;
   border: 1px solid #444;
   padding: 10px 20px;
   margin: 10px;
@@ -99,7 +99,7 @@ input[type="text"], input[type="password"] {
   left: -15px;
   width: 130%;
   height: 5px;              /* thickness of the line */
-  background-color: #990000;     /* line color */
+  background-color: #550000;     /* line color */
   transform: rotate(25deg); /* angle the line */
   transform-origin: center;
 }
