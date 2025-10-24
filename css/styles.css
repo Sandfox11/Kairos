@@ -28,7 +28,7 @@
    justify-content: center; /* horizontal centering */
    align-items: center;     /* vertical centering */
    text-align: center;
-   margin-top: 50;
+   margin-top: -100px;
    height:100%;
    padding: 30px;
  }
@@ -44,7 +44,7 @@
   color: #800
 }
 /* Buttons and links */
-button, .btn, a {
+ .visible {
   background-color: #1f1f1f;
   color: #800;
   border: 1px solid #444;
@@ -53,11 +53,11 @@ button, .btn, a {
   cursor: pointer;
   border-radius: 5px;
   font-size:20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
   text-decoration: none;
 }
 
-button:hover, .btn:hover, a:hover {
+  .visible:hover {
   background-color: #333;
   border-color: #666;
   transform: scale(1.05);
@@ -66,14 +66,10 @@ button:hover, .btn:hover, a:hover {
 /* Images */
 img {
   max-width: 90%;
+  cursor: default;
   height: auto;
   border-radius: 10px;
-  cursor: pointer;
   transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: rotate(2deg) scale(1.02);
 }
 
 /* Inputs (for password puzzles, etc.) */
