@@ -23,16 +23,15 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-  main{
-   display: flex;
-   justify-content: center; /* horizontal centering */
-   align-items: center;     /* vertical centering */
-   text-align: center;
-   margin-top: -100px;
-   height:100%;
-   padding: 30px;
-   color: #e0e0e0 ! important;
- }
+  main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+  height: 100%;
+  padding: 30px;
+}
   .about{
   margin-top: 50px;
   margin-bottom: 50px;
