@@ -15,6 +15,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 /* Headings */
@@ -28,6 +29,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
   margin-top: -100px;
   height: 100%;
   padding: 30px;
@@ -37,6 +39,7 @@
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
