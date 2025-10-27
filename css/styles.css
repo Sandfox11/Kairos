@@ -19,29 +19,16 @@
 }
 
 /* Headings */
-  h1, h2, h3 {
+  h1 {
   margin: 0.5em 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
   main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin-top: -100px;
+  margin-top: 200px;
   height: 100%;
   padding: 30px;
 }
-  .about{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 /* Buttons and links */
  .visible {
