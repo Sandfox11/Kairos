@@ -28,6 +28,11 @@
   height: 100%;
   padding: 30px;
 }
+  .gray {
+    font-style: italic;
+    color: #B0B0B0;
+    font-size:0.85em;
+  }
 }
 /* Buttons and links */
  .visible {
