@@ -1,7 +1,7 @@
 console.log("main.js successfully loaded");
 
 let AboutBTN = document.getElementById("about");
-let AboutBack = document.getElementByID("about-BackBTN");
+let AboutBack = document.getElementById("about-BackBTN");
 
 AboutBTN.addEventListener('click', () => {
   window.location.href = "../about/index.html";
