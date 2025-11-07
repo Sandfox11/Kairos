@@ -64,20 +64,3 @@ input[type="text"], input[type="password"], button {
   border-color: #000;
   transform: scale(1.15);
 }
-.crossed-out {
-  position: relative;       /* needed for the pseudo-element */
-  padding: 10px 20px;
-  font-size: 1rem;
-}
-
-.crossed-out::after {
-  content: '';
-  position: absolute;
-  top: 50%;                 /* center vertically */
-  left: -15px;
-  width: 130%;
-  height: 5px;              /* thickness of the line */
-  background-color: #550000;     /* line color */
-  transform: rotate(25deg); /* angle the line */
-  transform-origin: center;
-}
