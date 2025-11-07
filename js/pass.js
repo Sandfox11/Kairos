@@ -22,6 +22,7 @@ password.addEventListener('keydown', async (e) => {
       window.location.href = "main/index.html";
     } else {
       console.log("Wrong Password");
+      password.value = "";
     }
   }
 });
