@@ -20,7 +20,7 @@
 
 /* Headings */
   h1 {
-  padding-top: 120px;
+  padding-top: 130px;
   margin: 0.5em 0;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -35,24 +35,7 @@
     font-size:0.85em;
   }
 }
-/* Buttons and links */
- .visible {
-  background-color: #1f1f1f;
-  border: 1px solid #444;
-  padding: 10px 20px;
-  margin: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size:20px;
-  transition: all 0.15s ease-in-out;
-  text-decoration: none;
-}
 
-  .visible:hover {
-  background-color: #333;
-  border-color: #666;
-  transform: scale(1.05);
-}
 
 /* Images */
 img {
@@ -64,14 +47,22 @@ img {
 }
 
 /* Inputs (for password puzzles, etc.) */
-input[type="text"], input[type="password"] {
-  background-color: #111;
+input[type="text"], input[type="password"], button {
+  transition: all 0.1;
+  background-color: #222;
   color: #eee;
   border: 1px solid #555;
   padding: 10px;
   border-radius: 4px;
   margin: 10px 0;
   text-align: center;
+  cursor: pointer;
+}
+/* Buttons and links */
+  button:hover {
+  background-color: #444;
+  border-color: #000;
+  transform: scale(1.15);
 }
 .crossed-out {
   position: relative;       /* needed for the pseudo-element */
