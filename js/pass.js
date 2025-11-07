@@ -23,6 +23,7 @@ password.addEventListener('keydown', async (e) => {
     } else {
       console.log("Wrong Password");
       password.value = "";
+      
     }
   }
 });
