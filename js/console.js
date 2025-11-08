@@ -5,7 +5,7 @@ let History = document.getElementById("history");
 
 CNSL.addEventListener('keydown', (e) => {
   if (e.key === "enter") {
-    History.content = CNSL.value;
+    History.innerHTML = CNSL.value;
     CNSL.value = "";
   }
 });
