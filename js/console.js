@@ -1,10 +1,10 @@
 console.log("console.js successfully loaded");
 
 let CNSL = document.getElementById("ConINPT");
-let History = document.getElementById("History");
+let History = document.getElementById("history");
 
-CNSL.addEventListener('keydown', (keyEL) => {
-  if (keyEL === "enter") {
+CNSL.addEventListener('keydown', (e) => {
+  if (e.key === "enter") {
     History.content = CNSL.value;
     CNSL.value = "";
   }
