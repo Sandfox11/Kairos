@@ -4,6 +4,12 @@ let CNSL = document.getElementById("ConINPT");
 let History = document.getElementById("history");
 let send = document.getElementById("sendBTN");
 
+let SendText = function () {
+  History.innerHTML = CNSL.value;
+  CNSL.value = "";
+};
+
+
 send.addEventListener('click', SendText();)
 
 CNSL.addEventListener('keydown', (e) => {
@@ -11,8 +17,3 @@ CNSL.addEventListener('keydown', (e) => {
     SendText();
   }
 });
-
-let SendText = function () {
-  History.innerHTML = CNSL.value;
-  CNSL.value = "";
-};
