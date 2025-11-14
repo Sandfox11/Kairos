@@ -19,7 +19,7 @@ password.addEventListener('keydown', async (e) => {
 
     if (Input === "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c") {
       console.log("success");
-      window.location.href = "main/index.html";
+      //window.location.href = "main/index.html";
     } else if (Input === "f2d83ceffc56b21f412fbbc4453607a91b715aa875fe0e4c53f5f3445479a322") {
       console.log("success");
      // window.location.href = "console/index.html";
