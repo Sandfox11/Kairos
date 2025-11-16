@@ -21,7 +21,7 @@ password.addEventListener('keydown', async (e) => {
     const Input = await hash(password.value)
     console.log("Hash: ", Input);
 
-    if (Input === "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c") {
+    if (Input === "49f0bce976e06e2bd471502a26052377dc9298cb339dade9ed82866a2069745e") {
       console.log("success");
       window.location.href = "main/index.html";
     } else if (Input === "f2d83ceffc56b21f412fbbc4453607a91b715aa875fe0e4c53f5f3445479a322") {
