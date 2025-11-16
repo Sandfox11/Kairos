@@ -26,7 +26,7 @@ password.addEventListener('keydown', async (e) => {
       window.location.href = "main/index.html";
     } else if (Input === "f2d83ceffc56b21f412fbbc4453607a91b715aa875fe0e4c53f5f3445479a322") {
       console.log("success");
-      window.location.href = "console/index.html";
+      window.location.href = "Console/index.html";
     } else {
       console.log("Wrong Password");
       password.value = "";
