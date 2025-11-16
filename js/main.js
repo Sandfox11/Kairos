@@ -5,13 +5,14 @@ let UpdatesBTN = document.getElementById("UpdatesBTN");
 let LeadsBTN = document.getElementById("LeadsBTN");
 let ToolsBTN = document.getElementById("ToolsBTN");
 let SettingsBTN = document.getElementById("SettingsBTN");
+let GamesBTN = document.getElementById("GamesBTN");
 
 AboutBTN.addEventListener('click', () => {
   window.location.href = "../about/index.html";
 });
 
 UpdatesBTN.addEventListener('click', () => {
-  window.location.href = "../Updates/index.html";
+  window.location.href = "../updates/index.html";
 });
 
 LeadsBTN.addEventListener('click', () => {
@@ -24,4 +25,8 @@ ToolsBTN.addEventListener('click', () => {
 
 SettingsBTN.addEventListener('click', () => {
   window.location.href = "../settings/index.html";
+});
+
+GamesBTN.addEventListener('click', () => {
+  window.location.href = "../games/index.html";
 });
