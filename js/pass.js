@@ -1,7 +1,4 @@
-/*
-*Passwords here:
-123ToTaLlY4SuPeR5sEcReT6pAsSwOrD789
-*/
+
 console.log("JS loaded");
 
 let password = document.getElementById('Pass');
