@@ -3,7 +3,7 @@
    ============================ */
 
 /* Global styles */
-  body {
+  body{
   background-color: #0a0a0a;   /* deep black background */
   color: #e0e0e0;              /* soft off-white text */
   font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -19,12 +19,18 @@
 }
 
 /* Headings */
-  h1 {
+  h1{
   padding-top: 130px;
   margin: 0.5em 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+  a{
+    text-decoration: none;
+    color:#eee;
+    font-size:30px;
+}
+
   main {
   height: 100%;
   padding: 30px;
@@ -39,7 +45,7 @@
 
 /* Images */
 img {
-  max-width: 90%;
+  max-width: 80%;
   cursor: default;
   height: auto;
   border-radius: 10px;
