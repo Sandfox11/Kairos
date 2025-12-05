@@ -7,6 +7,7 @@ let ToolsBTN = document.getElementById("ToolsBTN");
 let SettingsBTN = document.getElementById("SettingsBTN");
 let GamesBTN = document.getElementById("GamesBTN");
 
+
 AboutBTN.addEventListener('click', () => {
   window.location.href = "../about/index.html";
 });

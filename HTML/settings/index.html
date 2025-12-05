@@ -12,14 +12,31 @@
       Settings
     </h1>
     <main>
-      <button type="button" id="Settings-BackBTN" style="margin-top:25px;">Back</button><br
+      <button type="button" id="Settings-BackBTN" style="margin-top:25px;">Back</button><br>
+
+      <div style="display:flex; flex-direction:column;align-items: flex-start;">
+        <h3>Audio</h3>
+        <label><input min="10" max="50" type="range" value="10" id="EVol"> Enviromental Volume </label>
+        <label><input min="0" max="100" type="range" value="0" id="MVol"> Music Volume </label>
+        <h3>Other</h3>
+        <label><input min="0" max="100" type="range" value="50" id="Bright"> Brightness </label>
+
+      </div>
   </main>
   </body>
   <script>
     let Back = document.getElementById("Settings-BackBTN");
 
+    if (localStorage.getItem("Settings") !== null) {
+      document.getElementById("EVol").value = JSON.parse(localStorage.getItem("Settings")).EVol;
+      document.getElementById("MVol").value = JSON.parse(localStorage.getItem("Settings")).MVol;
+      document.getElementById("Bright").value = JSON.parse(localStorage.getItem("Settings")).Brightness;
+    }
+
     Back.addEventListener('click', () => {
     window.location.href = "../main/index.html";
     });
+
   </script>
+  <script src="../../js/settings.js"></script>
 </html>

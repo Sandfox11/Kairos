@@ -53,7 +53,7 @@ img {
 }
 
 /* Inputs (for password puzzles, etc.) */
-input[type="text"], input[type="password"], button {
+input[type="text"], input[type="password"], button, select {
   transition: all 0.1;
   background-color: #222;
   color: #eee;
@@ -63,6 +63,9 @@ input[type="text"], input[type="password"], button {
   margin: 10px 0;
   text-align: center;
   cursor: pointer;
+}
+input[type="range"] {
+  width:75px;
 }
 /* Buttons and links */
   button:hover {

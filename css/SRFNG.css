@@ -1,0 +1,59 @@
+
+/* Global styles */
+  body{
+  background-color: #0a0a0a;   /* deep black background */
+  color: #e0e0e0;              /* soft off-white text */
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  height: 100vh;
+
+  /* Center all content in the middle */
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  justify-content:center;
+}
+ #gameScreen {
+  width: 50rem;
+  height: 30rem;
+  background: #020205;
+  border: 2px solid #333;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 0 0 5px #00ffae20;
+}
+
+}
+  input {
+    font-size: 15px;
+    width:80em;
+    color:#e0e0e0;
+    background: transparent;
+    padding: 10px;
+    transform: translate(-5px, 0px);
+    box-shadow:none;
+    border: none;
+    outline:none; 
+    text-align: left;
+    cursor: pointer;
+  }
+ button {
+  transition: all 0.1;
+  background-color: #222;
+  color: #eee;
+  border: 1px solid #555;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+/* Buttons and links */
+  button:hover {
+  background-color: #444;
+  border-color: #000;
+  transform: scale(1.15);
+}

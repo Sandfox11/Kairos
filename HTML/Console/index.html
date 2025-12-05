@@ -3,21 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>About</title>
-    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Console</title>
+    <link rel="stylesheet" href="../../css/console.css">
     <link rel="icon" type="image/ico" sizes="32x32" href="../../Images/favicon.ico">
   </head>
   <body>
     <main>
-      <button type="button" id="console-BackBTN" style="margin-top: 400px;">To Main</button><br>
-    </p>
-  </main>
+      <button type="button" id="console-BackBTN">To Main</button><br>
+    </main>
+  <div id="console">
+    <span id="history"></span>
+    <div id="input">
+      <span id="prompt">C:/windows64></span>
+      <input id="field" min="5" maxlength="80" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" required="yes">
+    </div>
+  </div>
   </body>
-  <script>
-    let ConsoleBack = document.getElementById("console-BackBTN");
-
-    ConsoleBack.addEventListener('click', () => {
-    window.location.href = "../main/index.html";
-    });
-  </script>
+  <script src="../../js/console.js"></script>
+  <script src="../../js/audioManager.js"></script>
 </html>
